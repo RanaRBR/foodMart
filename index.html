@@ -3,13 +3,313 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
 
-<body>
+<body class="lightMode">
+    <section class="barreNav">
+        <div class="logo">
+            <a href="#"><img src="./public/img/logo.png"></a>
+        </div>
+
+        <div class="iconEnsemble ">
+            <button class="icones" id="bout1">
+                <i class="bi bi-person"></i>
+            </button>
+            <button class="icones " id="boutonDark">
+                <i class="bi bi-mask"></i>
+            </button>
+        </div>
+
+    </section>
+    <main>
+        <section class="principal d-flex gap-5">
+            <div class="bouteille">
+                <div class="case1">
+                    <div class="textSeul d-flex justify-content-around align-items-center h-100">
+                        <div class="texte">
+                            <h2 class="orange">100 <span class="fst-italic">%</span> Naturel</h2>
+                            <h1>Fresh & <br> Smoothie & <br> Summer Juice</h1>
+                            <p>Lorem ipsum dolor sit amet. <br> Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <button class="shop">SHOP NOW &#8594;</button>
+                        </div>
+                        <div class="image"><img src="./public/img/product-thumb-1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="secondaire d-flex flex-column">
+                <div class="case2 d-flex flex-column gap-5">
+                    <div class="textSeul d-flex justify-content-around align-items-center h-100">
+                        <div>
+                            <h2>20 <span class="fst-italic">%</span> Off</h2>
+                            <div class="ensemble">
+                                <div class="barre1"></div>
+                                <p>SALE</p>
+                            </div>
+                            <h1>Fruits & <br> Vegetables</h1>
+                            <button class="bSpecial1 fs-5">Shop collection &#8594;</button>
+                        </div>
+                        <div class="photo"><img src="./public/img/ad-image-1.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="case3">
+                    <div class="textSeul d-flex justify-content-around align-items-center h-100">
+                        <div>
+                            <h2>15 <span class="fst-italic">%</span> Off</h2>
+                            <div class="ensemble">
+                                <div class="barre1"></div>
+                                <p>SALE</p>
+                            </div>
+                            <h1>Baked Products</h1>
+                            <button class="bSpecial2 fs-5">Shop collection &#8594;</button>
+                        </div>
+                        <div class="photo"><img src="./public/img/ad-image-2.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="category">
+            <h2 class="mt-5 mb-5 mx-5">Category</h2>
+            <div class="ensembleImage mt-5 mb-5">
+                <div class="premiereImage">
+                    <div class="mb-3">
+                        <img src="./public/img/icon-vegetables-broccoli.png" alt="">
+                    </div>
+                    <h3>Fruits & Veges</h3>
+                </div>
+                <div class="premiereImage">
+                    <div class="mb-3">
+                        <img src="./public/img/icon-bread-baguette.png" alt="">
+                    </div>
+                    <h3>Breads & Sweets</h3>
+                </div>
+                <div class="premiereImage">
+                    <div class="mb-3">
+                        <img src="./public/img/icon-soft-drinks-bottle.png" alt="">
+                    </div>
+                    <h3>Fruits & Veges</h3>
+                </div>
+                <div class="premiereImage">
+                    <div class="mb-3">
+                        <img src="./public/img/icon-wine-glass-bottle.png" alt="">
+                    </div>
+                    <h3>Fruits & Veges</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="muffin d-flex justify-content-around">
+            <div class="box1 d-flex">
+                <div class="textSeul d-flex">
+                    <div class="texte w-50">
+                        <h2 class="orange">Upto 25<span class="fst-italic">%</span> Off</h2>
+                        <h3 class="fs-bold">Luxa Dark Chocolate</h3>
+                        <p>Very tasty & creamy vanilla flavour creamy</p>
+                        <button class="bNoir">SHOP NOW</button>
+                    </div>
+                    <div class="image1 w-50">
+                        <img src="./public/img/ad-image-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="box2 d-flex">
+                <div class="textSeul d-flex ">
+                    <div class="texte w-50">
+                        <h2 class="orange">Upto 25<span class="fst-italic">%</span> Off</h2>
+                        <h3 class="fs-bold">Creamy Muffins</h3>
+                        <p>Very tasty & creamy vanilla flavour creamy muffins</p>
+                        <button class="bNoir">SHOP NOW</button>
+                    </div>
+                    <div class="image1 w-50">
+                        <img src="./public/img/ad-image-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <h2 class="mt-5 mb-5 mx-5">Best selling products</h2>
+
+            <div class="grande mx-5 gap-3 row">
+                <div class="boite1 col">
+                    <div class="bg1 d-flex justify-content-center align-items-center mx-auto mt-2">
+                        <span class="badge text-bg-success">-15%</span>
+                        <button class="bg-white border border-secondary coeur">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <img src="./public/img/thumb-tomatoes.png" alt="" srcset="">
+                    </div>
+                    <div class="d-block mx-3">
+                        <div>
+                            <h6>Sunstar Fresh Melon Juice</h6>
+                        </div>
+                        <span class="text-secondary">1 UNIT</span>
+                        <span><i class="bi bi-star-fill text-warning "></i></span>
+                        <span><b>4.5</b></span> <br>
+                        <span><b>$ 18.00</b></span>
+                        <div class="d-flex justify-content-evently gap-3">
+                            <i class="bi bi-dash-square"></i>
+                            <span>1</span>
+                            <i class="bi bi-plus-square"></i>
+                            <p class="mx-5 text-secondary">Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="boite1 col">
+                    <div class="bg1 d-flex justify-content-center align-items-center  mx-auto mt-2">
+                        <span class="badge text-bg-success">-15%</span>
+                        <button class="bg-white border border-secondary coeur">
+                            <i class="bi bi-heart" id="amour"></i>
+                        </button>
+                        <img src="./public/img/thumb-tomatoketchup.png" alt="" srcset="">
+                    </div>
+                    <div class="d-block mx-3">
+                        <div>
+                            <h6>Sunstar Fresh Melon Juice</h6>
+                        </div>
+                        <span class="text-secondary">1 UNIT</span>
+                        <span><i class="bi bi-star-fill text-warning "></i></span>
+                        <span><b>4.5</b></span> <br>
+                        <span><b>$ 18.00</b></span>
+                        <div class="d-flex justify-content-evently gap-3">
+                            <i class="bi bi-dash-square"></i>
+                            <span>1</span>
+                            <i class="bi bi-plus-square"></i>
+                            <p class="mx-5 text-secondary">Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boite1 col">
+                    <div class="bg1 d-flex justify-content-center align-items-center mx-auto mt-2">
+                        <span class="badge text-bg-success">-15%</span>
+                        <button class="bg-white border border-secondary coeur">
+                            <i class="bi bi-heart " id="amour"></i>
+                        </button>
+                        <img src="./public/img/thumb-bananas.png" alt="" srcset="">
+                    </div>
+                    <div class="d-block mx-3">
+                        <div>
+                            <h6>Sunstar Fresh Melon Juice</h6>
+                        </div>
+                        <span class="text-secondary">1 UNIT</span>
+                        <span><i class="bi bi-star-fill text-warning "></i></span>
+                        <span><b>4.5</b></span> <br>
+                        <span><b>$ 18.00</b></span>
+                        <div class="d-flex justify-content-evently gap-3">
+                            <i class="bi bi-dash-square"></i>
+                            <span>1</span>
+                            <i class="bi bi-plus-square"></i>
+                            <p class="mx-5 text-secondary">Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boite1 col">
+                    <div class="bg1 d-flex justify-content-center align-items-center mx-auto mt-2">
+                        <span class="badge text-bg-success">-15%</span>
+                        <button class="bg-white border border-secondary coeur">
+                            <i class="bi bi-heart" id="amour"></i>
+                        </button>
+                        <img src="./public/img/thumb-bananas.png" alt="" srcset="">
+                    </div>
+                    <div class="d-block mx-3">
+                        <div>
+                            <h6>Sunstar Fresh Melon Juice</h6>
+                        </div>
+                        <span class="text-secondary">1 UNIT</span>
+                        <span><i class="bi bi-star-fill text-warning "></i></span>
+                        <span><b>4.5</b></span> <br>
+                        <span><b>$ 18.00</b></span>
+                        <div class="d-flex justify-content-evently gap-3">
+                            <i class="bi bi-dash-square"></i>
+                            <span>1</span>
+                            <i class="bi bi-plus-square"></i>
+                            <p class="mx-5 text-secondary">Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class=" footer w-100 d-flex justify-content-around">
+            <div>
+                <div class="d-flex gap-3 fs-5">
+                    <i class="bi bi-cart3 fw-bolder"></i>
+                    <p><b>Free Delivery</b></p>
+                </div>
+                <p class="text-secondary mx-4">Lorem ipsum dolor sit <br> amet consectetur, adipisicing
+                    elit. <br> Nihil, amet!</p>
+            </div>
+
+            <div>
+                <div class="d-flex gap-3 fs-5">
+                    <i class="bi bi-shield-check fw-bolder"></i>
+                    <p><b>100% secure <br> payment</b></p>
+                </div>
+                <p class="text-secondary mx-4">Lorem ipsum dolor sit <br> amet consectetur, adipisicing elit. <br>
+                    Nihil, amet!</p>
+            </div>
+
+            <div>
+                <div class="d-flex gap-3 fs-5">
+                    <i class="bi bi-shop fw-bolder"></i>
+                    <p><b>Quality guarantee</b></p>
+                </div>
+                <p class="text-secondary mx-4">Lorem ipsum dolor sit <br> amet consectetur, adipisicing elit. <br>
+                    Nihil, amet!</p>
+            </div>
+
+            <div>
+                <div class="d-flex gap-3 fs-5">
+                    <i class="bi bi-chat-heart fw-bolder"></i>
+                    <p><b>Guaranteed savings</b></p>
+                </div>
+                <p class="text-secondary mx-4">Lorem ipsum dolor sit <br> amet consectetur, adipisicing elit. <br>
+                    Nihil, amet!</p>
+            </div>
+
+            <div>
+                <div class="d-flex gap-3 fs-5">
+                    <i class="bi bi-gift fw-bolder"></i>
+                    <p><b>Daily offers</b></p>
+                </div>
+                <p class="text-secondary mx-4">Lorem ipsum dolor sit <br> amet consectetur, adipisicing elit. <br>
+                    Nihil, amet!</p>
+            </div>
+
+
+        </section>
+
+        <div class="copyright d-flex justify-content-between">
+            <p class="text-secondary copy ">
+                <i class="bi bi-c-circle"></i>
+                2023 Foodmart.All rights reserved.
+
+            </p>
+
+            <p class="text-secondary mx-5 ">
+                Foodmart, le rendez-vous des saveurs: tout pour régaler vos papilles!
+            </p>
+        </div>
+    </footer>
+
+    <div class="popUpBg">
+        <div class="popUp">
+            <h1>Bonjour</h1>
+            <button class="close">x</button>
+        </div>
+    </div>
+
     <script src="./public/js/main.js"></script>
 </body>
 
